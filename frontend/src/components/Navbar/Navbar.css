@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #000000;
-    --secondary-color: #ffffff;
-    --accent-color: #ffffff;
+    --primary-color: #6a0dad;
+    --secondary-color: #b19cd9;
+    --accent-color: #b19cd9;
     --text-light: #ffffff;
     --text-dark: #000000;
     --transition-speed: 0.3s;
@@ -21,7 +21,7 @@
     }
 
     100% {
-        box-shadow: 0 4px 12px rgba(255, 255, 255, 0.5);
+        box-shadow: 0 4px 12px rgba(177, 156, 217, 0.5);
     }
 }
 
@@ -230,3 +230,4 @@
         font-size: 0.9rem;
     }
 }
+
