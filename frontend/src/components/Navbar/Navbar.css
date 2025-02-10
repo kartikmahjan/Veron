@@ -8,7 +8,7 @@
 }
 
 .nav-header {
-    background-color: var(--primary-color);
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     position: relative;
     z-index: 1000;
@@ -50,6 +50,15 @@
     transform: scale(1.2);
     filter: brightness(105%);
     transition: transform 0.2s ease-out, filter 0.2s ease-out;
+}
+
+.text-gradient {
+    background: white;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: white;
+    margin-left: 0.25rem;
+    font-weight: 700;
 }
 
 .nav-links {
@@ -98,21 +107,6 @@
     padding: 0.5rem 0;
     text-decoration: none;
     transition: color var(--transition-speed) ease;
-    animation: flash 2s ease-in-out infinite alternate;
-}
-
-@keyframes flash {
-    0% {
-        color: var(--text-light);
-    }
-
-    50% {
-        color: var(--accent-color);
-    }
-
-    100% {
-        color: var(--text-light);
-    }
 }
 
 .nav-link span {

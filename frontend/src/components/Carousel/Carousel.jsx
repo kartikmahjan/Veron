@@ -7,17 +7,17 @@ const Carousel = ({ autoSlide = true, slideInterval = 3000 }) => {
   const [slides, setSlides] = useState([
     {
       id: 1,
-      image: 'https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/a4554789-c2c9-4c7c-93a1-cbedf3f8bb62/1340332721/whiteboard-ai-screenshot.png',
+      image: 'https://images.pexels.com/photos/355988/pexels-photo-355988.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
       alt_text: 'Slide 1',
     },
     {
       id: 2,
-      image: 'https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/a4554789-c2c9-4c7c-93a1-cbedf3f8bb62/1340332721/whiteboard-ai-screenshot.png',
+      image: 'https://images.pexels.com/photos/355988/pexels-photo-355988.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
       alt_text: 'Slide 2',
     },
     {
       id: 3,
-      image: 'https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/a4554789-c2c9-4c7c-93a1-cbedf3f8bb62/1340332721/whiteboard-ai-screenshot.png',
+      image: 'https://images.pexels.com/photos/210114/pexels-photo-210114.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
       alt_text: 'Slide 3',
     },
   ]);
